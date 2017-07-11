@@ -12466,7 +12466,7 @@ Barney_Gumble: Yeah, you should only drink to enhance your social skills.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_batches</span><span class="p">(</span><span class="n">int_text</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">,</span> <span class="n">seq_length</span><span class="p">):</span>
@@ -12541,17 +12541,17 @@ Barney_Gumble: Yeah, you should only drink to enhance your social skills.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Number of Epochs</span>
 <span class="n">num_epochs</span> <span class="o">=</span> <span class="mi">50</span>
 <span class="c1"># Batch Size</span>
-<span class="n">batch_size</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">batch_size</span> <span class="o">=</span> <span class="mi">256</span>
 <span class="c1"># RNN Size</span>
-<span class="n">rnn_size</span> <span class="o">=</span> <span class="mi">150</span>
+<span class="n">rnn_size</span> <span class="o">=</span> <span class="mi">256</span>
 <span class="c1"># Embedding Dimension Size</span>
-<span class="n">embed_dim</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">embed_dim</span> <span class="o">=</span> <span class="mi">256</span>
 <span class="c1"># Sequence Length</span>
 <span class="n">seq_length</span> <span class="o">=</span> <span class="mi">10</span>
 <span class="c1"># Learning Rate</span>
@@ -12582,7 +12582,7 @@ Barney_Gumble: Yeah, you should only drink to enhance your social skills.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12633,7 +12633,7 @@ Barney_Gumble: Yeah, you should only drink to enhance your social skills.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[46]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12679,13 +12679,9 @@ Barney_Gumble: Yeah, you should only drink to enhance your social skills.
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Epoch   0 Batch    0/69   train_loss = 8.821
-Epoch   7 Batch   17/69   train_loss = 4.234
-Epoch  14 Batch   34/69   train_loss = 3.239
-Epoch  21 Batch   51/69   train_loss = 2.167
-Epoch  28 Batch   68/69   train_loss = 1.847
-Epoch  36 Batch   16/69   train_loss = 1.404
-Epoch  43 Batch   33/69   train_loss = 1.224
+<pre>Epoch   0 Batch    0/26   train_loss = 8.822
+Epoch  19 Batch    6/26   train_loss = 2.343
+Epoch  38 Batch   12/26   train_loss = 0.814
 Model Trained and Saved
 </pre>
 </div>
@@ -12707,7 +12703,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12733,7 +12729,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12772,7 +12768,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[49]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_tensors</span><span class="p">(</span><span class="n">loaded_graph</span><span class="p">):</span>
@@ -12826,7 +12822,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[50]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">pick_word</span><span class="p">(</span><span class="n">probabilities</span><span class="p">,</span> <span class="n">int_to_vocab</span><span class="p">):</span>
@@ -12879,7 +12875,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">gen_length</span> <span class="o">=</span> <span class="mi">200</span>
@@ -12938,21 +12934,21 @@ Model Trained and Saved
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>moe_szyslak:(singing, points) yeah, the last guy off his ball-- and there&#39;s a car built?
-moe_szyslak: come on, come on, come. no, i had a feeling i could love my new liver.
-moe_szyslak: it&#39;s either milk... uh...
-homer_simpson:(sighs) i don&#39;t get.
-moe_szyslak: hey, moe. take it with this...(nervous chuckle)
-moe_szyslak:(sadly) i have a confession to make: i want you to do.
-moe_szyslak: oh, i&#39;m not gonna let something ladies home for an joe. in this.
-sec_agent_#1:(from tv) oh, it&#39;s me.
-homer_simpson: there&#39;s it.
-homer_simpson: hey, homer... uh...
-moe_szyslak:(shocked) hey, it&#39;s there! i&#39;m all lookin&#39; up.
-moe_szyslak: no, i&#39;m not be. but when i need help till moe!
-moe_szyslak: nah, i can&#39;t be fine.(laughs)
-homer_simpson: moe, i just naturally assumed.
-moe_szyslak: now,
+<pre>moe_szyslak:(into phone) gotcha ya down for forty bucks!
+moe_szyslak: what about the ball?!(very belch)
+homer_simpson:(embarrassed) oh, moe.
+moe_szyslak: eh, no, i&#39;m not gonna let anything happen to my two, homer.
+
+
+homer_simpson: well, i say the greatest.(still chuckle) what do you have a rough catholic first...
+moe_szyslak: wow! he&#39;s not been four by carl? and i&#39;ll be so, and i have to stop paris...
+apu_nahasapeemapetilon: no.
+homer_simpson:(to moe, loud) actually homer...
+
+
+moe_szyslak: hey, homer. if you&#39;re havin&#39; a real crank prime(raises glass in front of mouth) atlanta falcons(lowers glass)!
+moe_szyslak:(and dentist) oh, what are you thinking that time. i&#39;m gonna do something for you and me and i&#39;m too much clean off my wife! / at him, who knows this much than you.
+homer_simpson:(handing maggie over) my tavern
 </pre>
 </div>
 </div>
